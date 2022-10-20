@@ -1,0 +1,406 @@
+*{
+    padding:0;
+    margin:0;
+}
+#nav{
+    margin:20px;
+    display: flex;
+    width: 89%;
+    justify-content:space-between ;
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+.im {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-image: none;
+    width: 100%;
+}
+a{ color: #252525;
+text-decoration: none;
+}
+h1{display: flex;
+    justify-content: center;
+    color: #5dc6b0;
+}
+.active{
+    color: #5d5d5d;
+}
+.div para{
+    display: flex;
+}
+#nav img{
+    width: 268px;
+    height: 33px;
+}
+
+.list{
+    display:flex;
+    width:100%;
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+
+ .active a {
+    margin-left:10px;
+    color:#5dc6b0;
+}
+.list li :hover{
+    color:#5dc6b0;
+
+
+}
+.para div{
+    display: flex;
+    margin: 12.8px,0px;
+    color: #747474;
+    font: 16px;
+margin-top: 100px;
+}
+.im{
+    margin-top: 100px;
+}
+h1{
+    margin-top: 50px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.patient{
+    display:flex;
+    flex-direction: column;
+    width:332px;
+    height: 365px;
+  align-items: center;
+  border-radius: 10px;
+    padding: 2em 2em 0;
+    background: #00ccb1;
+    margin:20px;
+    
+}
+
+.doctors{
+    display:flex;
+    flex-direction: column;
+    width:332px;
+    height: 365px;
+  align-items: center;
+  border-radius: 10px;
+    padding: 2em 2em 0;
+    background: #3d83df;
+    margin:20px;
+}
+
+
+.clinics{
+    display:flex;
+    flex-direction: column;
+    width:332px;
+    height: 365px;
+  align-items: center;
+  border-radius: 10px;
+    padding: 2em 2em 0;
+    background: #1b2734;
+    margin:20px;
+}
+.patient img{
+    width:24px;
+    height: 24px;
+}
+.style-select{
+    margin-top: 100px;
+}
+.div h1{
+    color: #fff;;
+}
+.section3{
+    position:relative;
+    display:flex;
+    margin: 2.5rem auto 3.125rem;
+      max-width: 1015px;
+    top:200px;
+    padding:0px;
+  }
+  .section3 h1{
+    float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: .25em 0 .35em;
+  font-size: 1.8rem;
+  color: #00b39b;
+  padding:0px;
+  margin:0px;
+  }
+  .brand-partner{
+    font-size: 0;
+    width: 100%;
+    list-style: none;
+  }
+  
+  .brand-partner li{
+  display:inline-block;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  
+  .brand-partner a:hover path{
+    fill: hsla(172,100%,35.1%);
+  }
+  .section4{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+    background-color: #e5faf8;
+    width: 100%;
+    height:600px;
+    top:220px;
+    overflow: hidden;
+    padding-bottom:30px;
+    
+  }
+  .h1section5 {
+    color:#00b39b;
+  }
+  .h2section5{
+    align-items: center;
+  }
+
+  .section5{
+    display:flex;
+    justify-content:center;
+  align-items: center;
+    position: relative;
+  top:180px;
+
+}
+
+.div-section5{
+  width:460px;
+    font-size: .875em;
+    text-align: center;
+  font-weight: 400;
+    color: #747474;
+    padding-top: 70px;
+}
+
+.div-section5 h1{
+      font-size: 1.8rem;
+      color: #00b39b;
+}
+
+.section6-part{
+  display:flex;
+  justify-content:space-around;
+  width: 1015px;
+  position:relative;
+  padding-bottom:20px;
+}
+
+.section6-img{
+  width:311px;
+  height:350px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    color: #747474;
+}
+
+.city-name{
+  font-size: 1.125em;
+  font-weight: 400;
+  display:flex;
+  justify-content:space-around;
+  position:relative;
+  top:15px;
+}
+
+.openings{
+    float: right;
+    padding: 1em 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 4px;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+}
+
+.openings:hover{
+  background: #1870e2;
+}
+
+.section6-img a{
+  text-decoration:none;
+  color:#747474;
+}
+
+.text{
+  margin-top:180px;
+}
+
+.text h1{
+      font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.text p{
+  max-width: 415px;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 2;
+  color: #747474;
+}
+
+.image{
+  margin-top:50px;
+}
+
+.statistic{
+  width:498px;
+  padding-top:130px;
+}
+
+.section4-center{
+  display:flex;
+  justify-content:space-around;
+  width:1057px;
+  padding-top:20px;
+}
+
+.stat-2{
+    background: #fff;
+    border-radius: 5px;
+    font-size: .8125em;
+    display: flex;
+  text-align: center;
+    position: relative;
+    width:230px;
+    height:230px;
+  flex-direction:column;
+  justifey-content:space-around;
+  align-items:center;
+  align-content:center;
+  padding-top:20px;
+}
+
+.stat-2 h3{
+      font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.stat-2 p{
+    font-weight: 400;
+    color: #747474;
+    font-smoothing: antialiased;
+}
+
+.stat-1{
+    background: #fff;
+    border-radius: 5px;
+    font-size: .8125em;
+    display: flex;
+  text-align: center;
+    position: relative;
+    width:230px;
+    height:230px;
+  flex-direction:column;
+  justifey-content:space-around;
+  align-items:center;
+  align-content:center;
+  margin-top:40px;
+  padding-top:20px;
+}
+
+.stat-1 h3{
+      font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.stat-1 p{
+    font-weight: 400;
+    color: #747474;
+    font-smoothing: antialiased;
+}
+
+.stat-part1{
+  display:flex;
+  justify-content:space-around;
+}
+
+.section6-img:hover{
+  box-shadow: 5px 5px 5px #d1d1d1;
+}
+/*main*/
+
+
+/*footer*/
+.MyFooter {
+    border-top: 1px solid #eef2f2;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    padding: 1em 0;
+  position:relative;
+  top:150px;
+}
+
+.DivFooter {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.DivFooter:after {
+        clear: both;
+}
+
+.DivFooter:after, .DivFooter:before {
+        content: "";
+        display: table;
+}
+
+.MyFooter p {
+    margin-bottom: .4em;
+}
+
+p {
+    margin: 1.6em 0;
+    display: block;
+}
+
+.DivFooter a{
+  text-decoration:none;
+  color: #3d83df;
+}
+
+.DivFooter a:hover{
+  text-decoration:underline;
+}
+.join-us-header{
+  text-align: center;
+}
